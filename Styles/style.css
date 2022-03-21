@@ -1,0 +1,274 @@
+body {
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background: rgb(27, 27, 27);
+  width: 100%;
+}
+
+/* Navigation */
+.navbar {
+  font-size: 1.15rem;
+  font-weight: 600;
+  background-color: rgb(27, 27, 27) !important;
+}
+
+.nav-item {
+  padding: 0.3rem;
+}
+
+.nav-link {
+  color: #f4f4f4 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: rgb(128, 128, 128) !important;
+}
+
+.navbar-toggler {
+  background: rgb(27, 27, 27);
+  border: none;
+  padding: 10px 6px;
+  outline: none;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border: 1px;
+  background: #f4f4f4;
+}
+.navbar-toggler span {
+  margin-top: 4px;
+  width: 18px;
+  margin-left: 4px;
+}
+
+.navbar-toggler span + span + span {
+  width: 10px;
+  margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 2rem 1.2rem;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 40px;
+  background-color: rgb(27, 27, 27);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #f4f4f4;
+}
+
+.social-links a:hover {
+  color: #24262b;
+  background-color: rgb(128, 128, 128);
+}
+
+/* Background Image */
+.bg-image {
+  background-size: cover;
+  position: sticky;
+  padding: 10rem 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.btn {
+  position: relative;
+}
+
+/* Gym Mantra */
+.gym-mantra {
+  padding-top: 100px;
+  color: white;
+}
+
+.mantra {
+  font-size: 50px;
+}
+
+.mantra-paragraph {
+  line-height: 2.5rem;
+  font-size: 20px;
+}
+
+/* Gym Photos */
+.gym-photos {
+  padding-top: 15rem;
+  padding-bottom: 20rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.photo-categories {
+  padding-bottom: 2rem;
+}
+
+.bg-image {
+  padding-bottom: 2rem;
+}
+
+.photo-description {
+  color: white;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.chi-town {
+  color: white;
+  padding-bottom: 8rem;
+  font-size: 75px;
+}
+
+/* Amenities */
+
+.amenities-content {
+  background-color: black;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 10rem;
+  color: white;
+  padding-bottom: 10rem;
+}
+
+.amenities {
+  padding-bottom: 5rem;
+  font-size: 45px;
+  letter-spacing: 0.3em;
+}
+
+.amenities-motto {
+  font-size: 1.27rem;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.amenities-types {
+  font-size: 15px;
+}
+
+/* Sign Up */
+
+.sign-up {
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 10rem;
+  color: black;
+  padding-bottom: 10rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.visit {
+  font-size: 70px;
+  padding-bottom: 2.5rem;
+}
+
+.visit-info {
+  font-size: 1.1rem;
+}
+
+/* Footer */
+
+.footer {
+  color: white;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.footer-cols {
+  padding-bottom: 3rem;
+}
+
+.footer-main-headings {
+  padding-bottom: 3rem;
+}
+
+.footer-btn {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+}
+
+.footer-btn:hover {
+  color: red;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* Devices under 1200px (xl) */
+@media (max-width: 1200px) {
+}
+/* Devices under 768px (md) */
+@media (max-width: 600px) {
+  .mantra {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .mantra-paragraph {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .main-slogan {
+    font-size: 60px;
+  }
+
+  .toughest-gym {
+    font-size: 24px;
+  }
+
+  .chi-town {
+    font-size: 58px;
+  }
+
+  .visit {
+    font-size: 50px;
+  }
+
+  .visit-info {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {
+} */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+} */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+} */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+} */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+} */
